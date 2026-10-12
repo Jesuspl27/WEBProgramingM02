@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX09 - Responsive Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>MiWeb</h1>
+
+            <div class="links">
+                <a href="#">Inicio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Contacto</a>
+            </div>
+
+            <button id="modo">Modo oscuro</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div>
+                <h2>Haz crecer tu proyecto</h2>
+                <p>
+                    Una solución sencilla para mejorar tu presencia
+                    en internet y llegar a más personas.
+                </p>
+                <a href="#" class="boton">Empezar ahora</a>
+            </div>
+        </section>
+
+        <section class="servicios">
+            <h2>Servicios</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>Diseño web</h3>
+                    <p>Diseños modernos y adaptados a cualquier dispositivo.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Desarrollo</h3>
+                    <p>Webs rápidas, sencillas y fáciles de utilizar.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Responsive</h3>
+                    <p>Tu página funcionará correctamente en móvil y ordenador.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacto">
+            <h2>¿Quieres empezar?</h2>
+            <p>Contacta con nosotros y cuéntanos tu idea.</p>
+            <a href="#" class="boton">Contactar</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>MiWeb - 2026</p>
+    </footer>
+
+    <script>
+        const boton = document.getElementById("modo");
+
+        boton.addEventListener("click", function() {
+            document.body.classList.toggle("oscuro");
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EX04 - Components</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Componentes CSS</h1>
+        <p>Ejemplo de componentes visuales reutilizables.</p>
+    </header>
+
+
+    <main class="container">
+
+        <!-- =========================
+             ALERTS
+             ========================= -->
+
+        <section class="section">
+
+            <h2>Alerts</h2>
+
+            <div class="alert alert-success">
+                <strong>Éxito:</strong>
+                La operación se ha realizado correctamente.
+            </div>
+
+            <div class="alert alert-warning">
+                <strong>Advertencia:</strong>
+                Revisa los datos antes de continuar.
+            </div>
+
+            <div class="alert alert-error">
+                <strong>Error:</strong>
+                No se ha podido realizar la operación.
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             BADGES
+             ========================= -->
+
+        <section class="section">
+
+            <h2>Badges</h2>
+
+            <span class="badge badge-primary">
+                Nuevo
+            </span>
+
+            <span class="badge badge-success">
+                Activo
+            </span>
+
+            <span class="badge badge-warning">
+                Pendiente
+            </span>
+
+            <span class="badge badge-error">
+                Error
+            </span>
+
+        </section>
+
+
+        <!-- =========================
+             CARDS
+             ========================= -->
+
+        <section class="section">
+
+            <h2>Cards</h2>
+
+            <div class="cards">
+
+                <article class="card">
+
+                    <h3>HTML</h3>
+
+                    <p>
+                        HTML permite crear la estructura
+                        de una página web.
+                    </p>
+
+                    <span class="badge badge-primary">
+                        Web
+                    </span>
+
+                    <button class="button button-primary">
+                        Ver más
+                    </button>
+
+                </article>
+
+
+                <article class="card">
+
+                    <h3>CSS</h3>
+
+                    <p>
+                        CSS permite controlar el diseño
+                        y la apariencia de una página web.
+                    </p>
+
+                    <span class="badge badge-success">
+                        Diseño
+                    </span>
+
+                    <button class="button button-primary">
+                        Ver más
+                    </button>
+
+                </article>
+
+
+                <article class="card">
+
+                    <h3>JavaScript</h3>
+
+                    <p>
+                        JavaScript permite añadir
+                        interactividad a una página web.
+                    </p>
+
+                    <span class="badge badge-warning">
+                        Programación
+                    </span>
+
+                    <button class="button button-primary">
+                        Ver más
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             BUTTONS
+             ========================= -->
+
+        <section class="section">
+
+            <h2>Buttons</h2>
+
+            <button class="button button-primary">
+                Primario
+            </button>
+
+            <button class="button button-success">
+                Aceptar
+            </button>
+
+            <button class="button button-warning">
+                Editar
+            </button>
+
+            <button class="button button-error">
+                Eliminar
+            </button>
+
+        </section>
+
+
+        <!-- =========================
+             FORM
+             ========================= -->
+
+        <section class="section">
+
+            <h2>Form</h2>
+
+            <form class="form">
+
+                <div class="form-group">
+
+                    <label for="nombre">
+                        Nombre
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Escribe tu nombre"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="ejemplo@email.com"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="mensaje">
+                        Mensaje
+                    </label>
+
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="5"
+                        placeholder="Escribe tu mensaje"
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="button button-primary"
+                >
+                    Enviar
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <p>
+            EX04 - Components
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

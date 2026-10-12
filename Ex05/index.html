@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EX05 - Flexbox Playground</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         BARRA DE NAVEGACIÓN
+         BONUS
+         ========================= -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Flexbox
+        </div>
+
+        <div class="nav-links">
+            <a href="#layout1">Layout 1</a>
+            <a href="#layout2">Layout 2</a>
+            <a href="#layout3">Layout 3</a>
+            <a href="#layout4">Layout 4</a>
+            <a href="#layout5">Layout 5</a>
+        </div>
+
+    </nav>
+
+    <header class="header">
+
+        <h1>Flexbox Playground</h1>
+
+        <p>
+            Diferentes ejemplos para aprender
+            a utilizar Flexbox.
+        </p>
+
+    </header>
+
+
+    <main class="container">
+
+
+        <!-- =========================
+             LAYOUT 1
+             FLEX-DIRECTION
+             ========================= -->
+
+        <section class="layout-section" id="layout1">
+
+            <h2>Layout 1 — flex-direction</h2>
+
+            <p>
+                Los elementos se colocan en una fila
+                utilizando <strong>flex-direction: row</strong>.
+            </p>
+
+            <div class="layout layout-1">
+
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LAYOUT 2
+             JUSTIFY-CONTENT
+             ========================= -->
+
+        <section class="layout-section" id="layout2">
+
+            <h2>Layout 2 — justify-content</h2>
+
+            <p>
+                Los elementos se distribuyen utilizando
+                <strong>justify-content: space-between</strong>.
+            </p>
+
+            <div class="layout layout-2">
+
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LAYOUT 3
+             ALIGN-ITEMS
+             ========================= -->
+
+        <section class="layout-section" id="layout3">
+
+            <h2>Layout 3 — align-items</h2>
+
+            <p>
+                Los elementos se alinean verticalmente
+                utilizando <strong>align-items: center</strong>.
+            </p>
+
+            <div class="layout layout-3">
+
+                <div class="box box-small">1</div>
+                <div class="box box-large">2</div>
+                <div class="box box-medium">3</div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LAYOUT 4
+             FLEX-WRAP Y GAP
+             ========================= -->
+
+        <section class="layout-section" id="layout4">
+
+            <h2>Layout 4 — flex-wrap y gap</h2>
+
+            <p>
+                Los elementos pasan a otra línea cuando
+                no hay suficiente espacio.
+            </p>
+
+            <div class="layout layout-4">
+
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LAYOUT 5
+             FLEX-GROW Y FLEX-SHRINK
+             ========================= -->
+
+        <section class="layout-section" id="layout5">
+
+            <h2>Layout 5 — flex-grow y flex-shrink</h2>
+
+            <p>
+                Los elementos pueden crecer o reducirse
+                para ocupar el espacio disponible.
+            </p>
+
+            <div class="layout layout-5">
+
+                <div class="box grow">
+                    flex-grow
+                </div>
+
+                <div class="box normal">
+                    normal
+                </div>
+
+                <div class="box shrink">
+                    flex-shrink
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EJEMPLO EXTRA
+             ========================= -->
+
+        <section class="layout-section">
+
+            <h2>Ejemplo combinado</h2>
+
+            <p>
+                Este ejemplo combina varias propiedades
+                de Flexbox.
+            </p>
+
+            <div class="layout combinado">
+
+                <div class="card">
+                    <h3>HTML</h3>
+                    <p>Estructura web</p>
+                </div>
+
+                <div class="card">
+                    <h3>CSS</h3>
+                    <p>Diseño web</p>
+                </div>
+
+                <div class="card">
+                    <h3>JavaScript</h3>
+                    <p>Interactividad</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <footer class="footer">
+
+        <p>
+            EX05 — Flexbox Playground
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

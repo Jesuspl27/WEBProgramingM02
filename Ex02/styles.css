@@ -1,0 +1,117 @@
+
+/* =========================
+   ESTILOS GENERALES
+   ========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.descripcion {
+    text-align: center;
+}
+
+
+/* =========================
+   TARJETAS
+   ========================= */
+
+.tarjetas {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tarjeta {
+    display: inline-block;
+
+    /* Ancho */
+    width: 250px;
+
+    /* Espacio interior */
+    padding: 20px;
+
+    /* Borde */
+    border: 3px solid black;
+
+    /* Espacio exterior */
+    margin: 15px;
+
+    /* Incluye padding y border dentro del width */
+    box-sizing: border-box;
+
+    background-color: white;
+
+    vertical-align: top;
+}
+
+.tarjeta h2 {
+    margin-top: 0;
+}
+
+
+/* =========================
+   COMPARACIÓN
+   ========================= */
+
+.titulo-comparacion {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.comparacion {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+
+/* =========================
+   CONTENT-BOX
+   ========================= */
+
+.content-box {
+    box-sizing: content-box;
+
+    width: 200px;
+
+    padding: 20px;
+
+    border: 5px solid red;
+
+    background-color: #ffe6e6;
+}
+
+
+/* =========================
+   BORDER-BOX
+   ========================= */
+
+.border-box {
+    box-sizing: border-box;
+
+    width: 200px;
+
+    padding: 20px;
+
+    border: 5px solid blue;
+
+    background-color: #e6e6ff;
+}
+
+
+/* =========================
+   ESTILO DE LAS CAJAS
+   ========================= */
+
+.caja {
+    margin: 20px;
+    text-align: center;
+}

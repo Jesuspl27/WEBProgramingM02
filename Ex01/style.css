@@ -1,0 +1,43 @@
+/*1. SELECTOR DE ELEMENTO*/
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/*2. SELETOR DE CLASSE*/
+.destaque {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*3. SELETOR DE ID*/
+#nome {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+/*4. SELETOR DESCENDENTE*/
+nav a {
+    margin-right: 15px;
+}
+
+/*5. SELETOR DE ATRIBUTO*/
+input[type="email"] {
+    padding: 5px;
+}
+
+/*6. PSEUDO-CLASSE :hover*/
+nav a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*7. BONUS :focus*/
+input:focus {
+    outline: 2px solid black;
+}
+
+/*8. BONUS :hover NO BOTÃO*/
+button:hover {
+    font-weight: bold;
+}
